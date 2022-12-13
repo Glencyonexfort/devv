@@ -1,0 +1,288 @@
+[20-Aug-2019 01:29:59 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 242
+[20-Aug-2019 01:30:05 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 242
+[20-Aug-2019 01:32:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:33:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:34:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:34:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:34:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:36:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:37:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:37:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:38:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:39:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:58:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 01:58:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 02:07:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 02:15:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 02:15:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 02:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 02:16:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 02:24:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 02:24:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 03:14:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 03:19:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 10:17:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 10:40:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 10:46:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 10:46:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 10:47:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 10:49:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 10:58:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 10:58:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 10:59:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[20-Aug-2019 11:04:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php:500
+Stack trace:
+#0 /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Support/Str.php(107): mb_strpos(NULL, '/json')
+#2 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(353): Illuminate\Http\Request->isJson()
+#4 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(419): Illuminate\Http\Request->getInputSource()
+#5 /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::cre in /home/onexfort/public_html/app/vendor/symfony/polyfill-mbstring/Mbstring.php on line 500
+[27-Aug-2019 05:08:48 UTC] PHP Warning:  require(/home/onexfort/public_html/app/vendor/composer/../symfony/polyfill-intl-idn/bootstrap.php): failed to open stream: No such file or directory in /home/onexfort/public_html/app/vendor/composer/autoload_real.php on line 66
+[27-Aug-2019 05:08:48 UTC] PHP Fatal error:  require(): Failed opening required '/home/onexfort/public_html/app/vendor/composer/../symfony/polyfill-intl-idn/bootstrap.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/onexfort/public_html/app/vendor/composer/autoload_real.php on line 66
+[27-Aug-2019 05:08:50 UTC] PHP Warning:  require(/home/onexfort/public_html/app/vendor/composer/../symfony/polyfill-intl-idn/bootstrap.php): failed to open stream: No such file or directory in /home/onexfort/public_html/app/vendor/composer/autoload_real.php on line 66
+[27-Aug-2019 05:08:50 UTC] PHP Fatal error:  require(): Failed opening required '/home/onexfort/public_html/app/vendor/composer/../symfony/polyfill-intl-idn/bootstrap.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/onexfort/public_html/app/vendor/composer/autoload_real.php on line 66
+[27-Aug-2019 05:08:51 UTC] PHP Warning:  require(/home/onexfort/public_html/app/vendor/composer/../../start.php): failed to open stream: No such file or directory in /home/onexfort/public_html/app/vendor/composer/autoload_real.php on line 66
+[27-Aug-2019 05:08:51 UTC] PHP Fatal error:  require(): Failed opening required '/home/onexfort/public_html/app/vendor/composer/../../start.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/onexfort/public_html/app/vendor/composer/autoload_real.php on line 66
+[28-Aug-2019 21:34:06 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 2393732 bytes) in /home/onexfort/public_html/app/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteCacheCommand.php on line 107
+[17-Apr-2021 09:52:00 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.3.0". You are running 7.1.33. in /home/onexfort/public_html/dev/vendor/composer/platform_check.php on line 24
+[17-Apr-2021 09:54:17 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.3.0". You are running 5.6.40. in /home/onexfort/public_html/dev/vendor/composer/platform_check.php on line 25
+[17-Apr-2021 09:56:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.3.0". You are running 7.2.34. in /home/onexfort/public_html/dev/vendor/composer/platform_check.php on line 24
+[17-Apr-2021 10:03:03 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.3.0". You are running 7.2.34. in /home/onexfort/public_html/dev/vendor/composer/platform_check.php on line 24
+[17-Apr-2021 10:05:04 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.3.0". You are running 7.2.34. in /home/onexfort/public_html/dev/vendor/composer/platform_check.php on line 24
+[17-Apr-2021 10:05:11 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.3.0". You are running 7.2.34. in /home/onexfort/public_html/dev/vendor/composer/platform_check.php on line 24
+[31-May-2021 14:28:13 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: {"id":1,"tenant_id":30,"customer_id":272,"billing_address":"99 Springvale Road","billing_suburb":"Springvale VIC","billing_post_code":"3172","account_number":"123123123","invoice_terms":"30 days","payment_instructions":"<p style=\"line-height: 1.4;\"><span style=\"font-size: 10px; font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;;\">Fox Relocations Pty Ltd<br><\/span><span style=\"font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 10px;\">BSB: 062-443<br><\/span><span style=\"font-size: 10px; f in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[31-May-2021 14:28:29 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: {"id":1,"tenant_id":30,"customer_id":272,"billing_address":"99 Springvale Road","billing_suburb":"Springvale VIC","billing_post_code":"3172","account_number":"123123123","invoice_terms":"30 days","payment_instructions":"<p style=\"line-height: 1.4;\"><span style=\"font-size: 10px; font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;;\">Fox Relocations Pty Ltd<br><\/span><span style=\"font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 10px;\">BSB: 062-443<br><\/span><span style=\"font-size: 10px; f in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[31-May-2021 14:47:28 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: fontMetrics (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[31-May-2021 14:49:14 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: pdf (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[31-May-2021 14:54:53 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: pdf (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[31-May-2021 14:55:25 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: pdf (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[21-Jul-2021 08:50:00 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Trying to get property 'company_name' of non-object (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[21-Jul-2021 08:53:16 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Trying to get property 'company_name' of non-object (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[21-Jul-2021 08:53:19 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Trying to get property 'company_name' of non-object (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[01-Feb-2022 20:31:14 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: is_storage_invoice (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[01-Feb-2022 22:51:40 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: is_storage_invoice (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[02-Feb-2022 21:34:11 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: is_storage_invoice (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[02-Feb-2022 21:54:54 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: is_storage_invoice (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[02-Feb-2022 21:55:35 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: is_storage_invoice (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[02-Feb-2022 22:19:33 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: is_storage_invoice (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[02-Feb-2022 22:29:17 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: is_storage_invoice (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243
+[02-Feb-2022 22:29:38 Australia/Melbourne] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: is_storage_invoice (View: /home/onexfort/public_html/dev/resources/views/admin/list-jobs/invoice.blade.php) in /home/onexfort/public_html/dev/vendor/barryvdh/laravel-dompdf/src/PDF.php on line 243

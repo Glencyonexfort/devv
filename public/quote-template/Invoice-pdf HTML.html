@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/invoice-pdf-custom.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="top"></div>
+    <div class="company">
+        <div class="company-name">
+            <h1> DesignStudio. </h1>
+            <p> Slogan Company </p>
+            <span class="logo"><i class="fa fa-diamond" aria-hidden="true"></i></span>
+        </div>
+        <div class="company-address b">
+            <p>1257 Street Nicholas Ave, NewYork, NY 10032, <b>USA</b></p>
+            <p>+123 456 78XX // +987 654 32XX</p>
+            <p class="day-time">Monday to Saturday 8:30am to 4:30pm</p>
+            <p>design.studio@contact.com</p>
+            <p>www.designstudio.com</p>
+        </div>
+        <div class="invoice-template-text b">
+            <h1 class="left"> .Invoice</h1>
+            <h1 class="template">Template</h1>
+        </div>
+    </div>
+
+    <div class="invoice">
+        <div class="invoice-to">
+            <p class="title">Invoice To:</p>
+            <div class="invoice-to-flex">
+                <div class="user-logo">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <div class="invoice-to-info">
+                    <h3 class="person-name">MICHAEL SMITH</h3>
+                    <p class="person-address"> 220 West 53rd Street, New York, NY 10019, USA</p>
+                    <p class="person-email"> michael.smith@contact.com</p>
+                    <p class="person-phone"> + 132 456 78XX </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="invoice-detail">
+            <div class="invoice-detail-border-bottom">
+                <p class="title">Invoice Details:</p>
+                <div class="invoice-detail-flex">
+                    <div class="invoice-detail-info">
+                        <p class="invoice-number"> Invoice N" :</p>
+                        <p class="invoice-date"> Invoice Date :</p>
+                        <p class="account-number"> Account N" :</p>
+                    </div>
+                    <div class="invoice-detail-value">
+                        <p class="invoice-number-value"> 000000218</p>
+                        <p class="invoice-date-value"> 15 June, 2015</p>
+                        <p class="account-number-value"> 123 4567894 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="invoice-sum">
+                <div class="invoice-sum-border-bottom">
+                    <div class="invoice-detail-flex">
+                        <div class="invoice-detail-info">
+                            <p class="sum-text"> TOTAL DUE :</p>
+                        </div>
+                        <div class="invoice-sum-value">
+                            <span class="dollar">$</span><span class="sum-value"> 3781.20</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <table id="pdf" style="width:100%">
+        <tr class="table-header">
+            <th>Item Description</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="td-flex">
+                    <div class="count-row">
+                        <span class="count-row-value">01</span>
+                    </div>
+                    <div class="content-row">
+                        <h6>Company Identity</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt autem voluptatum voluptatem tenetur laudantium maxime, placeat.</p>
+                    </div>
+                </div>
+            </td>
+            <td>1</td>
+            <td>$ 920.00</td>
+            <td>$ 920.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="td-flex">
+                    <div class="count-row">
+                        <span class="count-row-value">02</span>
+                    </div>
+                    <div class="content-row">
+                        <h6>Branding Design</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt autem voluptatum voluptatem tenetur laudantium maxime, placeat.</p>
+                    </div>
+                </div>
+            </td>
+            <td>1</td>
+            <td>$ 460.00</td>
+            <td>$ 460.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="td-flex">
+                    <div class="count-row">
+                        <span class="count-row-value">03</span>
+                    </div>
+                    <div class="content-row">
+                        <h6>UI & UX Design</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt autem voluptatum voluptatem tenetur laudantium maxime, placeat.</p>
+                    </div>
+                </div>
+            </td>
+            <td>2</td>
+            <td>$ 699.00</td>
+            <td>$ 1398.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="td-flex">
+                    <div class="count-row">
+                        <span class="count-row-value">04</span>
+                    </div>
+                    <div class="content-row">
+                        <h6>Brochure Design</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt autem voluptatum voluptatem tenetur laudantium maxime, placeat.</p>
+                    </div>
+                </div>
+            </td>
+            <td>3</td>
+            <td>$ 170.00</td>
+            <td>$ 510.00</td>
+        </tr>
+    </table>
+
+
+
+    <div class="payment-border">
+        <div class="payment">
+            <div class="payment-methods-text">
+                <span class="payment-methods-text">PAYMENT METHOD : </span> Paypal, VISA, MasterCard, Western Union
+            </div>
+            <div class="payment-methods">
+                <p class="p-payment-email">payments@companyname.com</p>
+                <img src="img/card-hand.png" alt="">
+                <p style="margin-top: -7px !important;" class="p-card-payment p-bold">CARD PAYMENT</p>
+                <p class="p-accept p-bold">WE Accept:</p>
+                <p class="p-payment-accept">VISA, Master card, American</p>
+            </div>
+            <div class="payment-person-address">
+                <p class="p-active-interactive p-bold">ACTIVE INTERACTIVE</p>
+                <p class="p-address"> 5400 Palisde Ave, West New York, NJ 07093, <b>USA</b></p>
+                <p class="p-business">Thank you for your business!</p>
+            </div>
+            <div class="payment-terms">
+                <p class="p-terms p-bold"> TERMS :
+                    <p>
+                        <p class="p-terms-text"> Payment should be made within 30 days by Western union money transfer or phone us.</p>
+            </div>
+        </div>
+        <div class="signature">
+            <div class="signature-detail-flex">
+                <div class="signature-detail-info">
+                    <p class="signature-number"> SUB TOTAL :</p>
+                    <p class="signature-date"> TAX: VAT 20% :</p>
+                    <p class="account-number color-red"> DISCOUNT 5% :</p>
+                </div>
+                <div class="signature-detail-value">
+                    <p class="signature-number-value"> $ 3288.00 </p>
+                    <p class="signature-date-value"> $ 657.60</p>
+                    <p class="signature-number-value color-red"> - $ 164,40 </p>
+                </div>
+            </div>
+            <div class="total-due">
+                <div class="signature-detail-flex">
+                    <div class="total-due-detail-info">
+                        <p class="signature-number-due signature-margin"> TOTAL DUE :</p>
+                    </div>
+                    <div class="signature-detail-value">
+                        <p class="signature-value"> $ 3781.20 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="signature-pad">
+                <p class="person-signature"> Person Signature Here </p>
+                <p class="signature-person-name">Joan Collins</p>
+                <p class="signature-person-proffession">Accounts Manager</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+
+        <div class="bottom-to">
+            <p class="bottom-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, consequatur, quisquam dolore amet porro esse, voluptatibus quos ut incidunt reprehenderit quis moqi
+            </p>
+        </div>
+        <div class="bottom-info">
+            <p class="bottom-text"> info@contact.com</p>
+            <p class="bottom-text"> design.contact@studio.com</p>
+            <p class="bottom-text"> www.designstudio.com</p>
+        </div>
+        <div class="bottom-address">
+            <p class="bottom-text bottom-text-address">1257 Street Nicholas Ave, NewYork, NY 10032, <b>USA</b></p>
+            <p class="bottom-text bottom-text-phone">+123 456 78XX</p>
+        </div>
+        <span class="bottom-logo"><i class="fa fa-diamond" aria-hidden="true"></i></span>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

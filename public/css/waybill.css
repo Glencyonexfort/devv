@@ -1,0 +1,67 @@
+.sub-header {
+    border: 1px solid black!important;
+    text-align: center;
+}
+
+.sub-header > #number {
+    font-weight: 700;
+    font-size: large;
+    margin-top: 3px;
+}
+
+.sub-header > #date {
+    margin: unset;
+    margin-top: -15px;
+}
+
+.trip_detials {
+    border: 1px solid black!important;
+}
+.trip_detials table td{
+    text-align: left;
+}
+
+table {
+    margin: 0 15px;
+}
+
+.job_header, .single_job_detail {
+    border: 1px solid black!important;
+}
+.single_job_detail table td{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.job_header table td{
+    text-align: left;
+    font-weight: bold;
+}
+
+
+#cbm {
+    width: 20%;
+    border-right: 1px solid black!important;
+    border-bottom: 1px solid black!important;
+    text-align: center;
+}
+
+#instructions {
+    padding: 10px;
+}
+
+.border-right {
+    border-right: 1px solid black!important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black!important;
+}
+
+.border-left {
+    border-left: 1px solid black!important;
+}
+
+#total_volumn {
+    text-align: end;
+}

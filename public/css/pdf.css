@@ -1,0 +1,332 @@
+/* pt-sans-regular - latin */
+@font-face {
+  font-family: 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/calibri/calibri-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/calibri/calibri-regular.ttf') format('truetype'); /* Legacy iOS */
+}
+@page {
+  size: A4;
+  margin:20px 20px 3rem 20px;
+}
+#pageFooter{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top:1px solid #5D6975;
+    padding-top:2px;
+    font-weight:bold;
+    left: 0px; right: 0px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #232323;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body {
+  width: 98%;
+  position: relative;
+  margin: 0 auto; 
+  color: #232323;
+  background: #FFFFFF; 
+  font-family: 'calibri-regular', sans-serif; 
+  font-size: 10px; 
+}
+
+header {
+  padding-top: 10px;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #5D6975;
+}
+
+#logo {
+  text-align: left;
+  float: left;
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+}
+
+#logo img {
+  width: 100px;
+}
+
+h1 {
+  color: #232323;
+  font-size: 2.4em;
+  font-weight: bold;
+  line-height: 1.4em;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+#project {
+  float: left;
+}
+
+#project span {
+  color: #5D6975;
+  text-align: right;
+  width: 52px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+#company {
+  text-align: right;
+  float: right;
+  width:220px
+}
+
+#project div{
+  white-space: nowrap;
+}
+#company div {
+  width: 220px;word-break: break-word;
+}
+#customer_detail>table{
+  width: 80%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  margin: 0 auto;
+}
+
+#customer_detail table,#customer_detail td {
+    text-align: left;
+    padding: 2px 10px;
+    vertical-align: top;
+}
+
+#customer_detail table table{
+  width: 100%;
+}
+
+
+#customer_detail table table,#customer_detail table table td {
+  border: 0;
+  table-layout: fixed;
+  padding: 0px 4px;
+}
+
+#customer_detail table table td:nth-child(1) {
+  width: 100%;
+  text-align: right;
+}
+#customer_detail table table td:nth-child(2) {
+  width: 60%;
+}
+
+#job_detail{
+    padding-top: 0.5rem;
+}
+#job_detail>table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+#job_detail table,#job_detail td {
+  border: 1px solid #5D6975;
+    text-align: left;
+    padding: 5px 2px;
+    padding-top: 0;
+    vertical-align: top;
+    /* padding-bottom: 10px; */
+}
+
+#job_detail table table,#job_detail table table td {
+  border: none;
+    text-align: left;
+    padding-top: 4px;
+}
+
+#job_detail .inner-table-td {
+    width: 100px;
+}
+
+#job_sign{
+  padding-top: 4rem;
+}
+
+#job_sign > table{
+  width: 40%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  height: 200px;
+}
+
+#job_sign table,#job_sign td {
+  border: 1px solid #5D6975;
+    text-align: left;
+    padding: 5px 2px;
+    padding-top: 0;
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+.noborder{
+  border: none!important;
+}
+.no-bottom-padding{
+  padding-bottom: 0px!important;
+}
+.pl-20{
+  padding-left: 20px!important;
+}
+.mt-3{
+  margin-top: 3rem;
+}
+main>table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+main>table th,
+table td {
+  text-align: center;
+}
+
+main>table th {
+    padding: 0px 5px 5px 10px;
+    border-bottom: 1px solid #5D6975;
+    white-space: nowrap;
+    font-weight: bold;
+    text-align: right;
+}
+
+main>table .terms {
+  text-align: left;
+  width: 100%;
+  padding-top:0px;
+  padding-bottom:0px;
+  border-top: 1px solid #5D6975;
+}
+
+main>table .desc {
+  text-align: left;
+  width: 60%;
+}
+
+main>table .qty {
+  width: 12%;
+}
+
+main>table .unit {
+  width: 12%;
+}
+
+main>table .total {
+  width: 12%;
+}
+
+main>table .tax {
+  width: 12%;
+}
+
+main>table td {
+    padding: 2px 5px 2px 10px;
+    border: 1px solid #5D6975;
+    border-bottom: none;
+    border-top: none;
+    text-align: right;
+    vertical-align: top;
+}
+
+main>table>td:nth-child(1) {
+  width: 60%;
+}
+main>table>td:nth-child(2) {
+  width: 12%;
+}
+main>table td:nth-child(3) {
+  width: 12%;
+}
+main>table>td:nth-child(4) {
+  width:12%;
+}
+main>table>td:nth-child(5) {
+  width:12%;
+}
+main>table>td:nth-child(6) {
+  width: 12%;
+}
+
+main>table td.service,
+table td.desc {
+  vertical-align: top;
+}
+
+main>table>tbody>tr:last-child>td{ 
+  border-bottom: 1px solid #5D6975;
+  height:200px;
+}
+
+main>table>tfoot>tr>td{
+border-bottom: 1px solid #5D6975;
+  font-weight: bold;
+}
+
+
+
+#notices .notice {
+  color: #5D6975;
+  font-size: 1.2em;
+}
+
+footer>table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+footer>table td{
+  padding: 0px 5px;
+  padding-right: 2px;
+  text-align: left;
+  vertical-align: top;
+}
+
+footer>table table td:nth-child(1){
+  font-weight: bold;
+  width:200px;
+}
+footer>table table td:nth-child(2){
+  font-weight: bold;
+  width:70px;
+}
+
+footer>table table {
+  width: 100%;
+}
+
+footer>table table td {
+  text-align: right;
+}
+.book_now_btn{
+  float: right;
+  margin: 10px;
+  padding: 8px 20px;
+  color:#fff;
+  background-color: #3875ff;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 3px;
+  -webkit-print-color-adjust: exact; 
+}

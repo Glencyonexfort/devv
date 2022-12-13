@@ -1,0 +1,755 @@
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('../fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+.b {
+    border-top: 3.5px solid #353F87;
+}
+
+div.top {
+    height: 67px;
+    background-image: url("../img/stripe-pattern-1.png");
+    -webkit-print-color-adjust: exact;
+}
+
+span.logo {
+    background: #353F87;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -19px;
+    left: 100px;
+    -webkit-print-color-adjust: exact;
+}
+
+span.logo i {
+    color: white;
+    margin-top: 13.2px;
+    font-size: 24px;
+}
+
+div.company {
+    width: 100%;
+    height: 160px;
+}
+
+div.company-name {
+    float: left;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 35px;
+    position: relative;
+}
+
+div.company-address {
+    float: left;
+    width: 44%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 39px 35px 35px 0px;
+}
+
+div.invoice-template-text {
+    float: left;
+    width: 21%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 29px 25px 35px 0px;
+}
+
+div.company-name>h1 {
+    font-family: Poppins-SemiBold;
+    margin: 0 !important;
+    font-size: 27px;
+}
+
+div.company-name>p {
+    font-family: Poppins-Light;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 !important;
+    margin-top: 4px !important;
+}
+
+div.company-address>p {
+    margin: 0 !important;
+    font-family: Poppins-Light;
+    font-size: 12px;
+}
+
+div.company-address>p.day-time {
+    color: #ccc;
+}
+
+div.invoice-template-text h1.left {
+    font-family: Poppins-SemiBold;
+    margin: 0!important;
+    font-size: 33px;
+    margin-left: 22px !important;
+}
+
+div.invoice-template-text h1.template {
+    font-family: Poppins-SemiBold;
+    margin: 0!important;
+    margin-top: -13px !important;
+    margin-left: -9px !important;
+    font-size: 33px;
+}
+
+div.invoice {
+    width: 100%;
+    height: 210px;
+    border-top: 1.4px solid darkblue;
+    border-bottom: 1.4px solid darkblue;
+}
+
+div.invoice-to {
+    font-family: Poppins-Medium;
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    border-right: 1.4px solid darkblue;
+}
+
+div.invoice-detail {
+    font-family: Poppins-Medium;
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+div.invoice-to p.title,
+div.invoice-detail p.title {
+    margin: 0 !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    padding-top: 5px;
+    position: relative;
+}
+
+div.invoice-detail-border-bottom {
+    padding: 0 35px 25px;
+    border-bottom: 3px solid #353F87;
+}
+
+div.invoice-to div.invoice-to-info>h3.person-name {
+    color: #000;
+    letter-spacing: 2px;
+    font-family: Poppins-SemiBold;
+    margin-top: -3px !important;
+    margin-bottom: 10px !important;
+    font-size: 15px;
+}
+
+div.invoice-to p.title::before,
+div.invoice-detail p.title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 6%;
+    width: 20px;
+    height: 3.5px;
+    background: #353F87;
+    -webkit-print-color-adjust: exact;
+}
+
+div.invoice-to div.invoice-to-info>p.person-address {
+    color: #666;
+    font-size: 13px;
+    font-family: Poppins-Light;
+    margin-top: 0 !important;
+    margin-bottom: 0px !important;
+}
+
+div.invoice-to div.invoice-to-info>p.person-email {
+    color: darkblue;
+    font-size: 12px;
+    font-family: Poppins-Regular;
+    border-top: 2px dotted #384289;
+    border-bottom: 2px dotted #384289;
+    margin: 3px 0px !important;
+    padding: 7px 0;
+}
+
+div.invoice-to div.invoice-to-info>p.person-phone {
+    color: #000;
+    font-size: 15px;
+    font-family: Poppins-Medium;
+    margin-top: 0px !important;
+}
+
+div.invoice-to-flex {
+    display: flex;
+    margin-top: 13px;
+}
+
+div.invoice-to-info {
+    margin-left: 12px;
+}
+
+div.user-logo {
+    background: #000;
+    border-radius: 50%;
+    height: 19px;
+    width: 19px;
+    -webkit-print-color-adjust: exact;
+    position: relative;
+}
+
+div.user-logo i {
+    font-size: 11px;
+    color: #fff;
+    position: absolute;
+    top: 3.1093px;
+    left: 5.8px;
+}
+
+div.invoice-detail-info {
+    margin-left: 24px;
+    color: #666;
+    font-size: 14px;
+}
+
+div.invoice-detail-info p {
+    margin: 0px !important;
+    margin-top: 9px !important;
+}
+
+div.invoice-detail-flex {
+    display: flex;
+    margin-top: 0px;
+}
+
+div.invoice-detail-value {
+    margin-left: 84px;
+    font-size: 14px;
+    text-align: right;
+}
+
+div.invoice-detail-value p {
+    margin: 0px !important;
+    margin-top: 9px !important;
+    text-transform: uppercase;
+}
+
+div.invoice-detail-value>p.invoice-number-value {
+    margin: 0px !important;
+    margin-top: 6px !important;
+    font-size: 16px;
+    color: #000;
+}
+
+div.invoice-detail-value>p.invoice-date-value,
+div.invoice-detail-value>p.account-number-value {
+    margin: 0px !important;
+    margin-top: 9px !important;
+    color: #666;
+    font-size: 13px;
+    font-family: Poppins-Regular;
+}
+
+div.invoice-detail-value>p.invoice-date-value {
+    text-transform: capitalize;
+}
+
+div.invoice-sum {
+    height: 47px;
+    margin-top: 3px;
+}
+
+div.invoice-sum-border-bottom {
+    padding: 8px 35px 9px;
+    background: #303B87;
+    -webkit-print-color-adjust: exact;
+}
+
+div.invoice-detail-info p.sum-text {
+    margin: 0px !important;
+    margin-top: 5.1px !important;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Poppins-Medium;
+    letter-spacing: 1.9px;
+}
+
+div.invoice-sum-value span.sum-value {
+    margin: 0px !important;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-family: Poppins-Regular;
+    letter-spacing: 1.4px;
+}
+
+div.invoice-sum-value {
+    margin-left: 70px;
+    font-size: 14px;
+    text-align: right;
+}
+
+span.dollar {
+    font-size: 18px;
+    color: white;
+}
+
+table#pdf td {
+    border-top: 2px dotted #384289;
+    border-collapse: collapse;
+}
+
+table#pdf tr:nth-child(odd) {
+    background-image: url("../img/stripe-pattern-1.png");
+    -webkit-print-color-adjust: exact;
+}
+
+table#pdf tr.table-header {
+    height: 40px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #000;
+    font-family: Poppins-Regular;
+    font-size: 12px;
+    text-align: center;
+}
+
+table#pdf tr {
+    height: 60px;
+    text-align: center;
+    font-family: Poppins-Regular;
+    font-size: 14px;
+}
+
+table#pdf tr>th:nth-child(1) {
+    text-align: left !important;
+}
+
+table#pdf tr.table-header>th:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    right: 0;
+    top: 450px;
+    width: 20px;
+    height: 2.5px;
+    background: #353F87;
+    -webkit-print-color-adjust: exact;
+}
+
+table#pdf tr>td:nth-child(1) {
+    text-align: left !important;
+    width: 430px;
+}
+
+table#pdf tr>td:nth-child(2),
+table#pdf tr>td:nth-child(3) {
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    color: #777;
+}
+
+table#pdf tr>td:nth-child(4) {
+    font-family: Poppins-SemiBold;
+    font-size: 13px;
+    color: #000;
+}
+
+div.td-flex {
+    display: flex;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+div.count-row {
+    background: black;
+    color: white;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    font-size: 11px;
+    position: relative;
+    -webkit-print-color-adjust: exact;
+    font-family: Poppins-Medium
+}
+
+span.count-row-value {
+    position: absolute;
+    top: 1.6px;
+    left: 3px;
+}
+
+div.content-row {
+    width: 430px;
+    margin-left: 12px;
+}
+
+div.content-row h6 {
+    font-size: 12px;
+    font-family: Poppins-Regular;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 !important;
+    margin-top: 1px !important;
+}
+
+div.content-row p {
+    font-size: 12px;
+    font-family: Poppins-Regular;
+    color: #000;
+    margin: 0 !important;
+}
+
+div.payment-border {
+    border-top: 3px solid #353F87;
+    border-bottom: 3px solid #353F87;
+    height: 415px;
+    width: 100%;
+}
+
+div.payment {
+    font-family: Poppins-Medium;
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    border-right: 1.4px solid darkblue;
+}
+
+div.signature {
+    font-family: Poppins-Medium;
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+div.payment-methods {
+    padding: 10px 0px 10px 35px;
+}
+
+div.payment-terms,
+div.payment-person-address {
+    margin-left: 35px;
+}
+
+div.payment-methods-text {
+    margin-top: 3px;
+}
+
+div.payment-methods-text {
+    padding: 15px 3px 15px 3px;
+    background: #303B87;
+    -webkit-print-color-adjust: exact;
+    color: white;
+    font-family: Poppins-Regular;
+    font-size: 11px;
+    text-align: center;
+}
+
+span.payment-methods-text {
+    letter-spacing: 1.3px;
+}
+
+div.payment-methods p,
+div.payment-person-address p,
+div.payment-terms p {
+    margin: 0 !important;
+}
+
+div.payment-person-address {
+    border-top: 2px dotted #353F87;
+    border-bottom: 2px dotted #353F87;
+}
+
+p.p-payment-email {
+    color: #999;
+    font-size: 11px;
+}
+
+p.p-accept {
+    color: #303B87;
+    font-size: 15px;
+}
+
+p.p-payment-accept {
+    color: #666;
+    font-size: 14.5px;
+}
+
+p.p-card-payment {
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+p.p-active-interactive {
+    padding-top: 10px;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+p.p-terms {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    padding-top: 10px;
+}
+
+p.p-address {
+    color: #666;
+    width: 180px;
+    line-height: 19px;
+    font-size: 14.5px;
+    font-family: Poppins-Regular;
+}
+
+p.p-business {
+    color: #999;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+p.p-terms-text {
+    color: #888;
+    width: 330px;
+    font-size: 13px;
+    font-family: Poppins-Regular;
+    line-height: 15px;
+}
+
+.color-red {
+    color: red;
+}
+
+p.sum-number-value {
+    margin: 0px !important;
+    margin-top: 9px !important;
+    font-size: 13px;
+    font-family: Poppins-Regular;
+}
+
+div.signature-detail-info {
+    margin-left: 24px;
+    margin-top: 11px;
+    color: #666;
+    font-size: 14px;
+}
+
+div.signature-detail-info p {
+    margin: 0px !important;
+    margin-top: 9px !important;
+}
+
+div.signature-detail-flex {
+    display: flex;
+    margin-top: 0px;
+}
+
+div.signature-detail-value {
+    margin-left: 84px;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 12px;
+}
+
+
+/*div.signature-detail-value p {
+	margin: 0px !important;
+	margin-top: 9px !important;
+	text-transform: uppercase;
+}*/
+
+div.signature-detail-value>p.signature-number-value {
+    margin: 0px !important;
+    margin-top: 6px !important;
+    font-size: 16px;
+}
+
+div.signature-detail-value>p.signature-date-value,
+div.signature-detail-value>p.account-number-value {
+    margin: 0px !important;
+    margin-top: 9px !important;
+    color: #000;
+    font-size: 16px;
+}
+
+div.signature-detail-value>p.signature-date-value {
+    text-transform: capitalize;
+}
+
+div.total-due {
+    margin-top: 18px;
+    border-top: 2px dotted #384289;
+    border-bottom: 2px dotted #384289;
+}
+
+div.total-due-detail-info {
+    margin-left: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+p.signature-number,
+p.signature-date,
+p.account-number,
+p.signature-number-due {
+    letter-spacing: 1.4px;
+}
+
+p.signature-margin {
+    margin-left: 40px;
+}
+
+p.signature-number-due {
+    color: #303B87;
+}
+
+div.signature-detail-value>p.signature-value {
+    margin: 0px !important;
+    margin-top: 7px !important;
+    font-size: 21px;
+    margin-left: -29px !important;
+    color: #303B87;
+}
+
+div.signature-pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.signature-pad p.person-signature {
+    margin-top: 63px;
+    border-bottom: 2px dotted #303B87;
+    margin-bottom: 10px;
+}
+
+div.signature-pad p.signature-person-name {
+    color: #303B87;
+    font-size: 15px;
+    margin: 0 !important;
+}
+
+div.signature-pad p.signature-person-proffession {
+    font-size: 13px;
+    margin-top: 0 !important;
+    color: #666
+}
+
+div.bottom {
+    height: 70px;
+    background-image: url("../img/stripe-pattern-1.png");
+    -webkit-print-color-adjust: exact;
+}
+
+div.bottom-to {
+    font-family: Poppins-Medium;
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 0px;
+    margin-top: 10px !important;
+}
+
+div.bottom-info {
+    float: left;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 10px !important;
+}
+
+div.bottom-address {
+    float: left;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 10px !important;
+    margin-left: 35px;
+}
+
+p.bottom-text {
+    font-size: 11px;
+    width: 350px;
+    font-family: Poppins-Regular;
+    color: #000;
+    margin: 0 !important;
+}
+
+p.bottom-text-address,
+p.bottom-text-phone {
+    font-size: 11px;
+    width: 160px;
+    font-family: Poppins-Regular;
+    color: #000;
+    margin: 0 !important;
+}
+
+span.bottom-logo {
+    background: #000;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    -webkit-print-color-adjust: exact;
+    margin-top: 21px;
+}
+
+span.bottom-logo i {
+    color: white;
+    margin-top: 8px;
+    margin-left: 7px;
+    font-size: 14px;
+}
+.book_now_btn{
+    background: #303b87;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 10%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.book_now_btn:hover{
+    background: #5966bf;
+}

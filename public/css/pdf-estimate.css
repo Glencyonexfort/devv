@@ -1,0 +1,426 @@
+/* pt-sans-regular - latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('PT Sans'), local('PTSans-Regular'),
+       url('fonts/pt-sans-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/pt-sans-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/pt-sans-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/pt-sans-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/pt-sans-v11-latin-regular.svg#PTSans') format('svg'); /* Legacy iOS */
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+@page {
+  size: A4;
+}
+html {
+  line-height: 1;
+  margin: 3em 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+a{
+  color: #555;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width:100%;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Invoice styles */
+/**
+ * DON'T override any styles for the <html> and <body> tags, as this may break the layout.
+ * Instead wrap everything in one main <div id="container"> element where you may change
+ * something like the font or the background of the invoice
+ */
+html, body {
+  /* MOVE ALONG, NOTHING TO CHANGE HERE! */
+}
+
+/** 
+ * IMPORTANT NOTICE: DON'T USE '!important' otherwise this may lead to broken print layout.
+ * Some browsers may require '!important' in oder to work properly but be careful with it.
+ */
+.clearfix {
+  display: block;
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+.separator {
+  height: 15px;
+}
+.separator.less {
+  height: 10px !important;
+}
+
+#container {
+  font: normal 14px/1.4em 'PT Sans', Sans-serif;
+  margin: 0 auto;
+  padding: 0 65px;
+  min-height: 842px;
+  position: relative;
+}
+
+#memo {
+  min-height: 100px;
+}
+#memo .logo {
+  float: left;
+  margin-right: 40px;
+}
+#memo .logo img {
+    max-width: 150px;
+}
+#memo .company-info {  
+  float: left;
+  margin-top: 8px;
+  max-width: 350px;
+}
+#memo .company-info span {
+  color: #888;
+  display: inline-block;
+  min-width: 15px;
+  font-size: 14px;
+}
+#memo .company-info > span:first-child {
+  font: 'PT Sans', Sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1em;
+}
+#memo:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#invoice-info {
+    font: normal 14px/1.4em 'PT Sans', Sans-serif!important;
+  float: left;
+}
+#invoice-info > div {
+  font: 'PT Sans', Sans-serif;
+  float: left;
+}
+#invoice-info > div > span {
+  font: 'PT Sans', Sans-serif;
+  display: block;
+  font-weight:400;
+  min-width: 100px;
+  min-height: 20px;
+  margin-bottom: 4px;
+}
+#invoice-info > div:last-child {
+    font: 'PT Sans', Sans-serif;
+    font-weight:400;
+  margin-left: 10px;
+}
+#invoice-info:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#client-info {
+  float: right;
+  margin-top: 9px;
+  margin-right: 30px;
+  min-width: 220px;
+}
+#invoice-info > div {
+  font: normal 14px/1.4em 'PT Sans', Sans-serif;
+  margin-bottom: 3px;
+}
+#invoice-info span {
+  font: normal 14px/1em 'PT Sans', Sans-serif; 
+  display: block;
+  padding: 4px 0px;
+}
+#invoice-info .client-name {
+  font: normal 14px/1em 'PT Sans', Sans-serif;
+  font-size: 16px;
+}
+
+#invoice-title-number {
+      
+  min-height: 100px;    
+  
+}
+#invoice-title-number span {
+  
+  min-width: 15px;
+  line-height: 1em;
+}
+#invoice-title-number #title {
+  font: 'PT Sans', Sans-serif;   
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #2f559a;
+}
+#invoice-title-number #number {
+  font-size: 22px;
+}
+
+#items table {
+  table-layout: fixed;
+}
+#items table th,#items table td {
+  vertical-align: top;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+#items {
+  margin-top: 15px;
+}
+#items table {
+  border-collapse: separate;
+  width: 100%;
+}
+#items table th span:empty, #items table td span:empty {
+  display: inline-block;
+}
+#items table th {
+    font: 'PT Sans', Sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  text-align: right;
+  border-bottom: 2px solid #898989;
+}
+#items table th:nth-child(2) {
+    font: 'PT Sans', Sans-serif;
+    font-weight: bold;
+  width: 30%;
+  text-align: left;
+}
+#items table th:last-child {
+    font: 'PT Sans', Sans-serif;
+    font-weight: bold;
+  text-align: right;
+}
+#items table td {
+    font: normal 14px/1.4em 'PT Sans', Sans-serif;
+  border-bottom: 1px solid #C4C4C4;
+  padding: 10px;
+  text-align: right;
+}
+#items table td:first-child {
+    font: normal 14px/1.4em 'PT Sans', Sans-serif;
+  text-align: left;
+  width:10px!important;
+}
+#items table td:nth-child(2) {
+    font: normal 14px/1.4em 'PT Sans', Sans-serif;
+  text-align: left;
+}
+
+#sums {
+    width: 320px;
+  float: right;
+  margin-top: 10px;
+  page-break-inside: avoid;
+}
+#sums table tr th, #sums table tr td {
+    font: 'PT Sans', Sans-serif;
+  min-width: 100px;
+  padding: 5px 10px;
+  text-align: right;
+}
+#sums table tr th {
+  text-align: left;
+  padding-right: 15px;
+}
+#sums table tr.amount-total th {
+    font: 'PT Sans', Sans-serif;
+  text-transform: uppercase;
+  color: #2f559a;
+}
+#sums table tr.amount-total th, #sums table tr.amount-total td {
+    font: 'PT Sans', Sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  
+}
+#sums table tr:last-child th {
+    font: 'PT Sans', Sans-serif;
+  text-transform: uppercase;
+  color: #2f559a;
+}
+#sums table tr:last-child th, #sums table tr:last-child td {
+    font: 'PT Sans', Sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#items table tr td {
+    font: normal 14px/1.4em 'PT Sans', Sans-serif !important;
+}
+
+#terms {
+  font-weight: 400;
+  max-width: 380px;
+  margin-top: 10px;
+}
+#terms > div {
+    font: normal 14px/1.4em 'PT Sans', Sans-serif;
+  color: #2f559a;
+  font-size: 16px;
+  min-height: 70px;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+.book_now_btn{
+    font: 'PT Sans', Sans-serif;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px 25px;
+    color:#fff;
+    background-color: #2f559a;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 3px;
+    -webkit-print-color-adjust: exact; 
+}
+
+.bottom-circles {
+  width: 310px;
+  height: 215px;
+  -moz-background-size: 384px auto;
+  -o-background-size: 384px auto;
+  -webkit-background-size: 384px auto;
+  background-size: 384px auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  -webkit-print-color-adjust: exact; 
+}
+.bottom-circles section {
+  position: relative;
+  -webkit-print-color-adjust: exact; 
+}
+.bottom-circles section div {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  -webkit-print-color-adjust: exact; 
+}
+.bottom-circles section > div:first-child {
+  background: #2f559a;
+  left: 3px;
+  width: 125px;
+  height: 125px;
+  top: 117px;
+  -webkit-print-color-adjust: exact; 
+}
+.bottom-circles section > div:first-child > div {
+  background: #5aadc5;
+  width: 60px;
+  height: 60px;
+  top: 32px;
+  left: 32px;
+  position: relative;
+  -webkit-print-color-adjust: exact; 
+}
+.bottom-circles section > div:last-child {
+  background: #2f559a;
+  right: -65px;
+  width: 280px;
+  height: 280px;
+  -webkit-print-color-adjust: exact; 
+}
+.bottom-circles section > div:last-child > div {
+  background: #5aadc5;
+  top: 24px;
+  left: 24px;
+  width: 230px;
+  height: 230px;
+  -webkit-print-color-adjust: exact; 
+}
+.bottom-circles section > div:last-child > div > div {
+  background: #2f559a;
+  top: 58px;
+  left: 58px;
+  width: 115px;
+  height: 115px;
+  -webkit-print-color-adjust: exact; 
+}
+.bottom-circles section > div:last-child > div > div > div {
+  background: #FFF;
+  top: 12px;
+  left: 12px;
+  width: 90px;
+  height: 90px;
+  -webkit-print-color-adjust: exact; 
+}
+
+
+/**
+ * If the printed invoice is not looking as expected you may tune up
+ * the print styles (you can use !important to override styles)
+ */
+@media print {
+  /* Here goes your print styles */
+  .ib_invoicebus_fineprint {
+    text-align: left;
+    text-indent: 65px;
+    -webkit-print-color-adjust: exact; 
+  }
+}
