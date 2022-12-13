@@ -173,7 +173,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Time</label>
+                            <label>Indian Time</label>
                             <div class="input-group">
                                 <span class="input-group-prepend"><span class="input-group-text"><i class="icon-alarm"></i></span></span>
                                 <input name="task_time" type="text" class="form-control pickatime-editable" value="{{ date('h:m:s') }}">
