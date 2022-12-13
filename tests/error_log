@@ -1,0 +1,1 @@
+[20-Aug-2019 01:38:40 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/onexfort/public_html/app/tests/TestCase.php on line 7

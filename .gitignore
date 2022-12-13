@@ -1,0 +1,12 @@
+
+.env
+/storage/
+/vendor/
+vendor/froiden/envato/src/Traits/AppBoot.php
+*.xml
+*.iml
+app/Http/Controllers/Admin/AdminBaseController.php
+/nbproject/private/
+nbproject/project.properties
+/public/invoice-files/
+/public/quote-files/
