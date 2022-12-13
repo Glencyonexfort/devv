@@ -29,6 +29,8 @@
 @endif
 
 @section('page-title')
+<p>'hello'</p>
+
 <style>
     .attachment-img {
     width: 24px;
